@@ -1,7 +1,9 @@
 # test-selectors
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This repo shows how to reproduce an issue seen when working with `ember-test-selectors`.
+Issue seen:
+- When you run `ember build --prod` and look into the generated assets, you still see
+`data-test-component` in the corresponding one, when you would have expected the selectors to be stripped.
 
 ## Prerequisites
 
